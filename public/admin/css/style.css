@@ -1,0 +1,280 @@
+/* admin css  */
+html, body {
+	margin: 0; padding: 0;
+	}
+
+body {
+	background-color: #333;
+	font: 400 0.8em arial, sans-serif;
+	color: #ccc;
+	line-height: 1.4em;
+	}
+
+a {
+	text-decoration: none;
+	color: #0c0;
+	}
+
+a:hover {
+	text-decoration: underline;
+	color: #cf0;
+	}
+
+#left {
+	top: 0; left: 0; 
+	text-align: right;
+	background: #333 url('fade.jpg') no-repeat right;
+	}
+
+#admin_details{
+	margin: 20px;
+	height: 200px;
+	
+}
+#panel{
+	margin-right: 40px;
+}
+
+#outer {
+	position: relative; left: 0;
+	}
+
+#main {
+	display: block;
+	padding-top: 0px !important;
+	}
+
+h1 {
+	display: inline;
+	margin-right: 30px;
+	font: 800 35px 'century gothic', 'trebuchet ms', arial, sans-serif;
+	color: #fff;
+	text-align: right;
+	}
+span.yellow {
+	color: #cf0;
+	}
+
+span.green {
+	color: #0c0;
+	}
+	span.white{
+		color: white;
+	}
+
+a.nav {
+	display: block;
+	margin: 0;
+	text-decoration: none;
+	font: 400 25px 'trebuchet ms', arial, sans-serif;
+	color: #aaa;
+	padding: 0 30px 3px 0;
+	}
+
+a.nav:hover {
+	color: #cf0;
+	background: #222;
+	text-decoration: none;
+	}
+
+#order_title{
+	height: 150px;
+	margin-bottom: 30px;
+}
+#order_title span{
+	font-family: Tahoma;
+	font-size: 30px;
+	color: #800080;
+}
+img.main{
+	height: 100%;
+}
+div.orderer_details {
+	float: left;
+	width: 100%;
+	display: inline-block;
+	margin: 8px 0 12px 10px; color: #fff;
+	background: #2a2a2a url('quote.jpg') repeat-x top;
+	border-bottom: solid 1px #2e2e2e; 
+ 	border-right: solid 1px #2e2e2e; 
+ 	border-left: solid 2px #0c0;
+	padding: 8px;
+	line-height: 100%;
+	}
+.date { 
+	text-align: center;
+	margin-right: 10px;
+	border-right: 2px solid green;
+	float: left;
+	width: 15%;
+	font: 10px Tahoma;
+	padding-right: 5px;
+	}
+.details{
+	margin-left: 10px;
+	line-height: 30px;
+	float: left;
+	width: 63%;
+	height: 100%;
+	padding: 1%;
+	font-size: 10px;
+}
+.delivered{
+	text-align: center;
+	border-left: 2px solid green;
+	float: left;
+	width: 17%;
+	font: 15px Tahoma;
+	padding: 0.5em;
+}
+.delivered input{
+	color: white;
+	background-color: red;
+}
+/* restaaurants css*/
+
+.commands_block{
+	text-align: center;
+	display: block;
+}
+.command{
+	display: inline-block;
+	margin: 5px;
+	padding: 5px;
+}
+.command input{
+	height: 40px;
+	font: 15px Tahoma;
+}
+#commands_display{
+	position: absolute;
+	text-align: center;
+}
+
+#cSpan{
+	font-size: 25px;
+	padding-left: 25%;
+	font-family: Tahoma;
+}
+.regForm{
+	margin-bottom: 30px;
+	display: block;
+	text-align: center;
+}
+.regForm span{
+	font-size: 15px;
+	padding: 0px;
+	font-family: Tahoma;
+}
+.regForm input{
+	height: 100%;
+	font-size: 20px;
+}
+#rest_name{
+}
+#address{
+	margin-top: 20px;
+}
+#region{
+	margin-top: 20px;
+	
+}
+#district{
+	margin-top: 20px;
+	
+}
+#working_days{
+	margin-top: 20px;
+	
+}
+#working_hours{
+	margin-top: 20px;
+	
+}
+#display{
+	margin-top: 20px;
+}
+#appDjob{
+	padding-right: 25px;
+	margin-top: 10px;
+	text-align: center;
+	/*background-color: black;*/
+	height: 55px;
+	border-radius: 10px;
+}
+#appDjob input {
+	font-family: Tahoma;
+	background-color: red;
+	color: white;
+	font-style: bold;
+	font-size: 30px;
+	padding: 10px;
+	color: white;
+}
+.description_price{
+	margin-top: 20px;
+}
+.description{
+
+}
+.price{
+	
+}
+.description input{
+	width: 100%;
+	font: 30px Tahoma;
+	text-align: center;
+	height: 50px;
+	
+}
+.price input{
+	width: 100%;
+	font: 30px Tahoma;
+	text-align: center;
+	height: 50px;
+}
+#additem{	
+	text-align: center;
+	/*background-color: black;*/
+	height: 50px;	
+}
+#additem input {
+	margin-top: 10px;
+	font-family: Tahoma;
+	background-color: red;
+	font-style: bold;
+	font-size: 30px;
+	color: white;
+}
+
+/* update css */
+
+.description_price_update{
+	margin-top: 10px;
+}
+.description_update{
+}
+.price_update{
+	
+}
+.id_update{
+	float: left;
+}
+.description_update input{
+	font: 30px Tahoma;
+	text-align: center;
+	height: 50px;
+	width: 100%;
+}
+.price_update input{
+	font: 30px Tahoma;
+	text-align: center;
+	height: 50px;
+	width: 100%;
+}
+.article1_shipping{
+	text-align: center;
+
+
+
+}

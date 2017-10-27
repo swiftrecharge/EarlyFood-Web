@@ -1,0 +1,103 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+section{
+	margin: auto;
+}
+body{
+	margin: auto;
+	background-image: url("../images/FRASSINO.jpg");
+	background-color: white;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#article1 span{
+	text-align: center;
+}
+#article1 a{
+	color: red;
+	font-style: italic;
+}
+#article1 a:visited{
+	color: red;
+}
+#article1{
+	width: 100%;
+	margin: auto;
+	background-color: white;
+	box-shadow: rgb(110,110,110) 1px 1px 1px;
+	display: block;
+	margin-bottom: 20px;
+	font: 1.5em Tahoma;
+	padding: 1em;
+}
+#article2{
+	width: 95%;
+	margin: auto;
+}
+#article3{
+	margin: auto;
+	background-color: #ccc;
+	box-shadow: rgb(110,110,110) 1px 1px 1px;
+	display: block;
+	margin-bottom: 20px;
+	font: 1.1em Tahoma;
+
+}
+@media only screen and (min-width: 768px){
+	#step2{
+		border-left: 1px solid black;
+		border-right: 1px solid black;
+	}
+}
+#comment{
+	background-color: white;
+	padding: 2.5em;
+	box-shadow: rgb(110,110,110) 5px 5px 5px;
+}
+#comment select{
+	width: 80%;
+	height: 45px;
+	font: 1.3em Tahoma;
+	border: 2px solid #ccc;
+	padding: 0.5em;
+}
+#comment input{
+	width: 80%;
+	height: 40px;
+	font: 1.5em Tahoma;
+	border: 2px solid #ccc;
+	padding: 0.5em;
+}
+#comment textarea{
+	width: 80%;
+	font: 1.5em Tahoma;
+	border: 2px solid #ccc;
+	padding: 0.5em;
+}
+#comment_sub{
+	background-color: #FFFACD;
+	padding: 0.5em;
+	padding-left: 3em;
+}
+#location p{
+	font: 1.3em Tahoma;
+	padding: 0.5em;
+	font-weight: normal;
+}
+#location li{
+	list-style: disc;
+	font: 1.3em Tahoma;
+	padding: 0em;
+	font-weight: normal;
+}
+#location iframe{
+	width: 100%;
+	
+}
+#addresss{
+	font: 0.97em Tahoma;
+	background-color: white;
+	box-shadow: rgb(110,110,110) 0px 2px 2px;
+}

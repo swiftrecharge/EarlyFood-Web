@@ -1,0 +1,67 @@
+/* orders css  */
+
+#order_title{
+	height: 40px;
+	margin-bottom: 30px;
+	background-color: white;
+	
+	padding: 1.5em;
+}
+#order_title img{
+	height: 100%;
+	float: left;
+	margin-left: 40%;
+	background-color: transparent;
+	border: 0px;
+}
+#order_title span{
+	font-family: Tahoma;
+	font-size: 20px;
+	color: #800080;
+}
+div.orderer_details {
+	float: left;
+	width: 100%;
+	display: inline-block;
+	margin: 8px 0 12px 10px; color: #fff;
+	background: #2a2a2a url('quote.jpg') repeat-x top;
+	border-bottom: solid 1px #2e2e2e; 
+ 	border-right: solid 1px #2e2e2e; 
+ 	border-left: solid 2px #0c0;
+	padding: 8px;
+	line-height: 100%;
+	}
+.date { 
+	text-align: center;
+	margin-right: 10px;
+	border-right: 2px solid green;
+	float: left;
+	width: 15%;
+	font: 10px Tahoma;
+	padding-right: 5px;
+	}
+.details{
+	font-weight: bolder;
+	margin-left: 10px;
+	line-height: 30px;
+	float: left;
+	width: 75%;
+	height: 100%;
+	padding: 1%;
+	font-size: 10px;
+}
+.delivered{
+	text-align: center;
+	border-left: 2px solid green;
+	float: left;
+	width: 5%;
+	font: 15px Tahoma;
+	padding: 0.5em;
+}
+.delivered input{
+	color: white;
+	background-color: red;
+}
+.article1_shipping{
+	text-align: center;
+}

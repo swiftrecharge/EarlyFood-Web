@@ -1,0 +1,445 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	margin: auto;
+	background-image: url("../images/FRASSINO.jpg");
+	background-color: white;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+/* Registration Page CSS*/
+#form_all{
+	/*background-color: red; */
+	min-height: 500px;
+	background-color: #FAFAD2;
+}
+#registration_section{
+	margin: auto;
+	margin-top: 50px;
+	/*background-color: yellow; */
+}
+#article1_register{
+	text-align: center;
+	background-color: white;
+	box-shadow: rgb(110,110,110) 2px 2px 5px;
+	padding: 15px;
+	margin-bottom: 50px;
+}
+#cSpan{
+	font-size: 25px;
+	padding: 0px;
+	font-family: Tahoma;
+}
+.regForm{
+
+}
+.regForm span{
+	font-size: 15px;
+	padding: 0px;
+	font-family: Tahoma;
+}
+.regForm input{
+	height: 30px;
+	font-size: 19px;
+	border: 1px solid black;
+}
+#bDay select{
+	height: 30px;
+	font-size: 18px;
+}
+#aboutU select{
+	font-size: 20px;
+	width: 35%;
+}
+#email{
+	padding: 5px;
+}
+#pass{
+	padding: 5px;
+}
+#fName{
+		padding: 5px;
+}
+#lName{
+	padding: 5px;
+}
+#pNumber{
+	
+	padding: 5px;
+}
+#comp{
+	padding: 5px;
+}
+#bDay{
+	padding: 5px;
+}
+#aboutU{
+	padding: 5px;
+}
+#article2_register{
+	background-color: white;
+	margin-bottom: 50px;
+	padding: 30px;
+	box-shadow: rgb(110,110,110) 2px 2px 5px;
+}
+#article2_register span{
+	font-size: 30px;
+	padding: 0px;
+	font-family: Tahoma;
+}
+#article2_register li{
+	list-style: disc;
+	font-family: Tahoma;
+}
+#create_account input{
+	width: 200px;
+	height: 50px;
+	background-color: red;
+	color: white;
+	margin-top: 70px;
+}
+#notifs{
+	font-size: 15px;
+	height: 50px;
+	width: 100%;
+}
+#notifs input{
+	height: 20px;
+}
+#prompt{
+	min-height: 50px;
+	background-color: red;
+	color: white;
+	font: 2em Tahoma;
+	padding: 0.5em;
+}
+@media only screen and (min-width: 995px){
+	#registration_section{
+		/*background-color: red; */
+	}
+	#form_all{
+		background-color: #FAFAD2;
+		min-height: 500px;
+	}
+	#registration_section{
+		width: 95%;
+		margin-left: 2.5%;
+		margin-top: 50px;
+		margin-bottom: 50px;
+		/*background-color: yellow; */
+	}
+	#article1_register{
+		background-color: white;
+		box-shadow: rgb(110,110,110) 2px 2px 5px;
+		padding: 20px;
+		text-align: left;
+		}
+	#cSpan{
+		font-size: 25px;
+		padding: 0px;
+		font-family: Tahoma;
+	}
+	.regForm{
+		text-align: center;
+	}
+	.regForm span{
+		font-size: 15px;
+		padding: 0px;
+		font-family: Tahoma;
+	}
+	.regForm input{
+		height: 30px;
+		font-size: 20px;
+	}
+	#bDay select{
+		height: 30px;
+		font-size: 18px;
+	}
+	#aboutU select{
+		height: 30px;
+		font-size: 20px;
+		width: 90%;
+	}
+	#email{
+		padding: 5px;
+		margin-bottom: 30px;
+	}
+	#pass{
+		padding: 5px;
+		margin-bottom: 30px;
+	}
+	#fName{
+		padding: 5px;
+		margin-bottom: 30px;
+	}
+	#lName{
+		padding: 5px;
+		margin-bottom: 30px;
+	}
+	#pNumber{
+		padding: 5px;
+		margin-bottom: 30px;
+	}
+	#comp{
+		padding: 5px;
+		margin-bottom: 30px;
+	}
+	#bDay{
+		padding: 5px;
+		margin-bottom: 30px;
+	}
+	#aboutU{
+		padding: 5px;
+		margin-bottom: 30px;
+	}
+	#create_account input{
+		width: 200px;
+		height: 50px;
+		background-color: red;
+		color: white;
+		margin-top: 45px;
+		margin-bottom: 10px;
+		margin-left: 20px;
+	}
+	#article2_register{
+		background-color: white;
+		float: left;
+		margin-left: 30px;
+		padding: 30px;
+		box-shadow: rgb(110,110,110) 2px 2px 5px;
+	}
+	#article2_register span{
+		font-size: 30px;
+		padding: 0px;
+		font-family: Tahoma;
+	}
+	#article2_register li{
+		list-style: disc;
+		font-family: Tahoma;
+	}
+	#notifs{
+		padding: 5px;
+		font-size: 15px;
+		margin-top: 20px;
+	}
+	#notifs input{
+		height: 15px;
+	}
+}
+/*
+
+*/
+@media only screen and (min-width: 991px) and (max-width: 995px){
+	#form_all{
+		/*background-color: green; */
+		min-height: 550px;
+		background-color: #FAFAD2;
+	}
+	#article1_register{
+		
+	}
+	#article2_register{
+		margin-left: 35px;
+	}
+	#email{
+		padding: 5px;
+		margin-bottom: 30px;
+	}
+	#pass{
+		padding: 5px;
+		margin-bottom: 30px;
+	}
+	#fName{
+		padding: 5px;
+		margin-bottom: 30px;
+	}
+	#lName{
+		padding: 5px;
+		margin-bottom: 30px;
+	}
+	#pNumber{
+		padding: 5px;
+		margin-bottom: 30px;
+	}
+	#comp{
+		padding: 5px;
+		margin-bottom: 30px;
+	}
+	#bDay{
+		padding: 5px;
+		margin-bottom: 30px;
+	}
+	#aboutU{
+		padding: 5px;
+		margin-bottom: 30px;
+	}
+	#create_account input{
+		width: 200px;
+		height: 50px;
+		background-color: red;
+		color: white;
+		margin-top: 45px;
+		margin-bottom: 10px;
+		margin-left: 20px;
+	}
+	#notifs input{
+		height: 15px;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+	#registration_section{
+		/*background-color: black; */
+	}
+	#registration_section{
+		margin-top: 50px;
+		margin-bottom: 50px;
+		/*background-color: yellow;  */
+	}
+	#form_all{
+		background-color: #FAFAD2;
+		min-height: 550px;
+	}
+	#article1_register{
+		background-color: white;
+		box-shadow: rgb(110,110,110) 2px 2px 5px;
+		padding: 20px;
+		width: 100%;
+	}
+	#cSpan{
+		font-size: 25px;
+		padding: 0px;
+		font-family: Tahoma;
+	}
+	.regForm{
+		
+	}
+	.regForm span{
+		font-size: 15px;
+		padding: 0px;
+		font-family: Tahoma;
+	}
+	.regForm input{
+		height: 30px;
+		font-size: 20px;
+	}
+	#bDay select{
+		height: 30px;
+		font-size: 18px;
+	}
+	#aboutU select{
+		height: 30px;
+		font-size: 20px;
+		width: 90%;
+	}
+	#email{
+		width: 40%;
+		float: left;
+		padding: 5px;
+		padding-left: 50px;
+		margin-right: 55px;
+		margin-left: 30px;
+		margin-bottom: 30px;
+	}
+	#pass{
+		width: 40%;
+		float: left;
+		padding: 5px;
+		margin-bottom: 30px;
+	}
+	#fName{
+		width: 40%;
+		float: left;
+		padding: 5px;
+		padding-left: 50px;
+		margin-right: 55px;
+		margin-left: 30px;
+		margin-bottom: 30px;
+	}
+	#lName{
+		width: 40%;
+		float: left;
+		padding: 5px;
+		margin-bottom: 30px;
+	}
+	#pNumber{
+		width: 40%;
+		float: left;
+		padding: 5px;
+		padding-left: 50px;
+		margin-right: 55px;
+		margin-left: 30px;
+		margin-bottom: 30px; 
+	}
+	#comp{
+		width: 40%;
+		float: left;
+		padding: 5px;
+		margin-bottom: 30px;
+	}
+	#bDay{
+		width: 44%;
+		float: left;
+		padding: 5px;
+		padding-left: 50px;
+		margin-right: 55px;
+		margin-left: 25px;
+		margin-bottom: 30px; 
+	}
+	#aboutU{
+		width: 33%;
+		float: left;
+		padding: 5px;
+		margin-bottom: 30px;
+	}
+	#article2_register{
+		margin-left: -75%;
+		background-color: white;
+		width: 100%;
+		padding: 30px;
+		box-shadow: rgb(110,110,110) 2px 2px 5px;
+	}
+	#article2_register span{
+		font-size: 30px;
+		padding: 0px;
+		font-family: Tahoma;
+	}
+	#article2_register li{
+		list-style: disc;
+		font-family: Tahoma;
+	}
+	#create_account input{
+		width: 200px;
+		height: 50px;
+		background-color: red;
+		color: white;
+		margin-top: 45px;
+		margin-bottom: 10px;
+	}
+	#notifs{
+		padding: 5px;
+		font-size: 15px;
+		margin-top: 20px;
+	}
+	#notifs input{
+		height: 15px;
+	}
+	#prompt{
+		min-height: 50px;
+		background-color: red;
+		color: white;
+		font: 1.1em Tahoma;
+		padding: 0.5em;
+	}
+}
+@media only screen and (max-width: 767px){
+	#prompt{
+		min-height: 50px;
+		background-color: red;
+		color: white;
+		font: 1.5em Tahoma;
+		padding: 0.1em;
+	}
+}
+

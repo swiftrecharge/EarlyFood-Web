@@ -1,0 +1,175 @@
+/* restaurants css*/
+body{
+	background-color: black;
+}
+.panel_buttons{
+	margin: 5px;
+}
+.panel_buttons input{
+	padding: 1em;
+	margin-bottom: 5px;
+}
+#order_title{
+	height: 40px;
+	margin-bottom: 30px;
+	background-color: white;
+	
+	padding: 1.5em;
+}
+#order_title img{
+	height: 100%;
+	float: left;
+	margin-left: 40%;
+	background-color: transparent;
+	border: 0px;
+}
+#order_title span{
+	font-family: Tahoma;
+	font-size: 20px;
+	color: #800080;
+}
+.commands_block{
+	text-align: center;
+	display: block;
+}
+.command{
+	display: inline-block;
+	margin: 5px;
+	padding: 5px;
+}
+.command input{
+	height: 40px;
+	font: 15px Tahoma;
+}
+#commands_display{
+	position: absolute;
+	text-align: center;
+}
+
+#cSpan{
+	font-size: 25px;
+	padding-left: 25%;
+	font-family: Tahoma;
+}
+.regForm{
+	margin-bottom: 30px;
+	display: block;
+	text-align: center;
+}
+.regForm span{
+	font-size: 15px;
+	padding: 0px;
+	font-family: Tahoma;
+}
+.regForm input{
+	height: 100%;
+	font-size: 20px;
+}
+#rest_name{
+}
+#address{
+	margin-top: 20px;
+}
+#region{
+	margin-top: 20px;
+	
+}
+#district{
+	margin-top: 20px;
+	
+}
+#working_days{
+	margin-top: 20px;
+	
+}
+#working_hours{
+	margin-top: 20px;
+	
+}
+#display{
+	margin-top: 20px;
+}
+#appDjob{
+	padding-right: 25px;
+	margin-top: 10px;
+	text-align: center;
+	/*background-color: black;*/
+	height: 55px;
+	border-radius: 10px;
+}
+#appDjob input {
+	font-family: Tahoma;
+	background-color: red;
+	color: white;
+	font-style: bold;
+	font-size: 30px;
+	padding: 10px;
+	color: white;
+}
+.description_price{
+	margin-top: 20px;
+}
+.description{
+
+}
+.price{
+	
+}
+.description input{
+	width: 100%;
+	font: 30px Tahoma;
+	text-align: center;
+	height: 50px;
+	
+}
+.price input{
+	width: 100%;
+	font: 30px Tahoma;
+	text-align: center;
+	height: 50px;
+}
+#additem{	
+	text-align: center;
+	/*background-color: black;*/
+	height: 50px;	
+}
+#additem input {
+	margin-top: 10px;
+	font-family: Tahoma;
+	background-color: red;
+	font-style: bold;
+	font-size: 30px;
+	color: white;
+}
+
+/* update css */
+
+.description_price_update{
+	margin-top: 10px;
+}
+.description_update{
+}
+.price_update{
+	
+}
+.id_update{
+	float: left;
+}
+.description_update input{
+	font: 30px Tahoma;
+	text-align: center;
+	height: 50px;
+	width: 100%;
+}
+.price_update input{
+	font: 30px Tahoma;
+	text-align: center;
+	height: 50px;
+	width: 100%;
+}
+.article1_shipping{
+	text-align: center;
+
+
+
+}

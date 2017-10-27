@@ -1,0 +1,130 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	margin: auto;
+	background-image: url("../images/FRASSINO.jpg");
+	background-color: white;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+/* Restaurants page css */
+
+#restaurants_section{
+	margin: auto;
+	margin-top: 25px;
+}
+#article1_restaurants{
+	font-family: Tahoma;
+	margin-top: 25px;
+	background-color: white;
+	min-height: 50px;
+	padding: 20px;
+	box-shadow: rgb(110,110,110) 2px 2px 5px;
+}
+#article2_restaurants{
+	margin-top: 25px;
+	 /*background-color: blue; 	*/
+}
+.set{
+	float: left;
+	margin: 20px;
+	width: 45%;
+	min-height: 100px;
+	background-color: #ccc;
+	box-shadow: rgb(110,110,110) 2px 2px 5px;
+}
+.set_img{
+	float: left;
+	width: 30%;
+	height: 100px;
+	margin: 5px;
+	text-align: center;
+	/*background-color: blue; */
+}
+.set_img img{
+	height: 95%;
+	width: 95%;
+	border: 1px solid #ccc;
+}
+.set_text{
+	text-align: center;
+	padding: 0px;
+	font:Tahoma;
+	float: left;
+	width: 64%;
+	margin: 5px;
+	/*background-color: yellow; */
+}
+.set_text a{
+	color: #ccc;
+}
+.set_text a:visited{
+	color: #ccc;
+}
+#searchTag{
+	text-align: center;
+	margin-bottom: 10px;
+}
+@media only screen and (min-width: 1200px){
+	.set{
+		background-color: #ccc;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 1199px){
+	.set{
+		/*background-color: red;*/
+		background-color: white;
+		float: left;
+		margin: 20px;
+		width: 95%;
+		min-height: 100px;
+		background-color: #ccc;
+		box-shadow: rgb(110,110,110) 2px 2px 5px;
+	}
+	.set_img{
+		float: left;
+		width: 30%;
+		height: 100px;
+		margin: 5px;
+		background-color: #ccc;
+	}
+	.set_text{
+		text-align: center;
+		padding: 0px;
+		font:Tahoma;
+		float: left;
+		width: 64%;
+		margin: 5px;
+		background-color: #ccc;
+	}
+}
+@media only screen and (max-width: 768px){
+	.set{
+		/*background-color: violet;*/
+		background-color: #ccc;
+		float: left;
+		margin: 0px;
+		margin-bottom: 15px;
+		width: 100%;
+		min-height: 100px;
+		box-shadow: rgb(110,110,110) 2px 2px 5px;
+	}
+	.set_img{
+		float: left;
+		width: 30%;
+		height: 100px;
+		margin: 5px;
+		background-color: #ccc;
+	}
+	.set_text{
+		text-align: center;
+		padding: 0px;
+		font:Tahoma;
+		float: left;
+		width: 60%;
+		margin: 5px;
+		background-color: #ccc;
+	}
+}

@@ -1,0 +1,91 @@
+footer{
+	background-color: #333;
+	margin-top: 20px;
+}
+#mission{
+	color: #ccc;
+	padding: 1em;
+	padding-left: 2em;
+}
+.first{
+}
+#mission span{
+	font: 1.5em Tahoma;
+	font-style: italic; 
+}
+#links{
+	word-spacing: 3em;
+	padding-right: 3em;
+	color: #ccc;
+}
+#links_footer span{
+	font: 1.5em Tahoma;
+	font-style: italic; 
+}
+#social span{
+	font: 1.5em Tahoma;
+	font-style: italic;
+}
+#links_footer a:visited{
+	color: #4682B4;
+}
+#links_footer a:hover{
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+.first{
+	min-height: 100px;
+}
+#social a:visited{
+	color: #4682B4;
+}
+#social a:hover{
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+#copyright span{
+	color: #ccc;
+	font-size: 1em;
+}
+#copyright{
+	display: inline-block;
+	width: 100%;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-left: 2em;
+}
+#p_p li{
+	list-style: none;
+}
+#p_p a{
+	color: #4682B4;
+}
+#p_p a:visited{
+	color: #4682B4;
+}
+#p_p a:hover{
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+#p_text{
+	height: 250px;
+	top: -248px;
+	width: 97%;
+	padding: 2em;
+	overflow-y: auto;
+	background-color: #333;
+	color: #ccc;
+}
+h6 {
+   width: 100%; 
+   text-align: center; 
+   border-bottom: 1px solid #000; 
+   line-height: 0.1em;
+   margin: 10px 0 20px; 
+   background-color: white;
+
+}

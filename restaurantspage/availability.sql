@@ -1,0 +1,24 @@
+CREATE TABLE restaurant_openTime (
+	id INT(11) NOT NULL AUTO_INCREMENT,
+	restaurant_id INT(11) NOT NULL,
+	monday TIMESTAMP NOT NULL,
+	tuesday TIMESTAMP NOT NULL,
+	wednesday TIMESTAMP NOT NULL,
+	thursday TIMESTAMP NOT NULL,
+	friday TIMESTAMP NOT NULL,
+	saturday TIMESTAMP NOT NULL,
+	sunday TIMESTAMP NOT NULL,
+	PRIMARY KEY (id)
+);
+CREATE TABLE restaurant_closeTime (
+	id INT(11) NOT NULL AUTO_INCREMENT,
+	restaurant_id INT(11) NOT NULL,
+	monday TIMESTAMP NOT NULL,
+	tuesday TIMESTAMP NOT NULL,
+	wednesday TIMESTAMP NOT NULL,
+	thursday TIMESTAMP NOT NULL,
+	friday TIMESTAMP NOT NULL,
+	saturday TIMESTAMP NOT NULL,
+	sunday TIMESTAMP NOT NULL,
+	PRIMARY KEY (id)
+);

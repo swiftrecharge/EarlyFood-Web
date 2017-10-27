@@ -1,0 +1,14 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	margin: auto;
+	background-image: url("FRASSINO.jpg");
+	background-color: white;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+header, nav,section, article, footer{
+	display: block;
+}

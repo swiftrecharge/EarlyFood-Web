@@ -1,0 +1,134 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	margin: auto;
+	background-image: url("../images/FRASSINO.jpg");
+	background-color: white;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+a:link{
+	text-decoration: none;
+}
+/* Login page css below*/
+#login_section{
+	margin-bottom: 100px;
+}
+#article1_login li{
+	list-style: disc;
+	font-family: Tahoma;
+	font-size: 1.2em;
+}
+#article1_login span{
+	font-size: 2.0em;
+	padding: 0px;
+	font-family: Tahoma;
+}
+#article1_login{
+	margin-top: 40px;
+	background-color: white;
+	padding: 1.8em;
+	box-shadow: rgb(110,110,110) 2px 2px 5px;
+}
+#article1_login_createAccount{
+	font-family: Tahoma;
+	padding: 5px;
+	height: 50px;
+	max-width: 230px;
+	background-color: red;
+	color: white;
+		
+}
+#article1_login_createAccount a{
+	color: white;
+	font-size: 20px;
+	margin-top: 50px;
+}
+#article1_login_createAccount a:visited{
+	color: white;
+}
+#article1_login_createAccount a:hover{
+	font-style: italic;
+	font-weight: bold;
+}
+#article2_login{
+	margin-top: 40px;
+	padding-bottom: 10px;
+	background-color: white;
+	box-shadow: rgb(110,110,110) 2px 2px 5px;
+}
+#article2_login span{
+	font-size: 2em;
+	padding-top: 20px;
+}
+#email_box{
+	padding: 5px;
+	margin-top: -45px;
+}
+#email_box1{
+	background: transparent;
+	height: 50px;
+	
+	text-align: center;
+	font-size: 20px;
+}
+#password_box1{
+	background-color: transparent;
+	height: 50px;
+	
+	text-align: center;
+	font-size: 20px;
+}
+@media only screen and (min-width: 767px){
+	#login_section{
+		margin-bottom: 100px;
+		width: 95%;
+		margin-left: 2.5%;
+	}
+	#email_box1{
+		min-width: 350px;
+	}
+	#password_box1{
+		min-width: 350px;
+	}
+}
+	#password_box{
+		padding: 5px; 
+	}
+#login_button{
+	background-color: red;
+	color: white;
+	height: 50px;
+	width: 70px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+#hepage {
+	margin-right: 5px;
+	font-family: Tahoma;
+	text-align: right;
+	margin-top: 5px;
+}
+#hepage a{
+	color: red;
+}
+/* reset */
+#p_p li{
+	list-style: none;
+}
+#p_p a{
+	color: red;
+}
+#p_p a:visited{
+	color: red;
+}
+#p_text{
+	height: 250px;
+	top: -248px;
+	width: 59%;
+	padding: 2em;
+	overflow-y: auto;
+	background-color: white;
+}

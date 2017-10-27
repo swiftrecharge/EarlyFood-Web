@@ -1,0 +1,363 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	margin: auto;
+	background-image: url("../images/FRASSINO.jpg");
+	background-color: white;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+input[type=checkbox] {
+  
+}
+
+/* top description */
+article{
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 20px;
+	box-shadow: rgb(110,110,110) 2px 2px 5px;
+	margin-top: 12px;
+	padding-top: 5px;
+	color: black;
+
+}
+
+#order_time{
+	margin: 0 auto;
+	display: inline-block;
+	padding: 1em;
+	color: white;
+	width: 100%;
+	height: 100px;
+	background-image: url("../images/b.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.time_text{
+	font: 2em Tahoma;
+	color: white;
+	padding-top: 10px;
+}
+.time{
+	font: 1.6em Tahoma;
+	color: white;
+	padding-top: 25px;
+}
+#top_rest{
+	background-color: #FFFFF0;
+	height: auto;
+}
+#top_restaurant_description{
+	border-right: 2px solid #F5F5F5 ;
+	line-height: 1em;
+	margin-bottom: 20px;
+}
+#top_order_options{
+	font: 20px Tahoma;
+	
+}
+#set_img_desc{
+	/*background-color: blue; */
+}
+#set_img_desc img{
+	height: 50%;
+	width: 70%;
+	border: 1px solid #ccc;
+}
+#set_text_desc{
+	margin-bottom: 20px;
+	font:Tahoma;
+	/*background-color: yellow; */
+}
+
+#pricecalculator_cart{
+	font: 1.0em Tahoma;
+	display: block;
+	background-color: white;
+	padding: 1.7em;
+	box-shadow: rgb(110,110,110) 2px 2px 5px;
+}
+#cart_section{
+}
+#menu_panel{
+	background-color: white;
+	/* background-color: blue; */
+	padding-bottom: 2em;
+	box-shadow: rgb(110,110,110) 2px 2px 5px;
+}
+#check_item{
+	display: none;
+	float: left;
+	margin: 3px;
+	margin-top: 10px;
+}
+#check_item input{
+	display: none;
+	width: 22px;
+	height: 22px;
+	box-shadow: rgb(110,110,110) 2px 2px 5px;
+}
+#food_item{
+	width: 100%;
+	margin: 0px;
+	text-align: center;
+	min-height: 25px;
+	margin-top: -66px;
+	background-color: black;
+	opacity: 0.7;
+	color: white;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+#food_item input:hover {
+	text-decoration: none;
+}
+#food_item input {
+	background-color: black;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	font: 0.9em Tahoma;
+	border: none;
+}
+#add_to_cart{
+	width: 100%;
+	padding: 2px;
+	height: 50px;
+	margin-top: 20px;
+	text-align: center;
+	font: 1.5em Tahoma;
+	color: white;
+}
+#add_to_cart input{
+	width: 100%;
+	background-color: #f4511e;
+	height: 44px;
+}
+#food_price{
+	margin-top: 10px;
+	color: black;
+}
+#food_price input{
+	padding: 0.2em;
+	border: none;
+	background-color: white;
+	font: 1.2em Tahoma;
+}
+#numberof_plates{
+	margin-top: 10px;
+	
+}
+.set{
+	float: left;
+	margin: 5px;
+	width: 240px;
+	background-color: white;
+	box-shadow: rgb(110,110,110) 2px 2px 5px;
+}
+@media only screen and (max-width: 999px){
+	#set_img_desc img{
+		text-align: center;
+		height: 30%;
+		width: 30%;
+		border: 1px solid #ccc;
+	}
+	.time_text{
+		font: 1.4em Tahoma;
+		color: white;
+		padding-top: 10px;
+	}
+	.time{
+		font: 1.2em Tahoma;
+		color: white;
+		padding-top: 25px;
+	}
+	#food_price input{
+		padding: 0.2em;
+		font: 1.0em Tahoma;
+	}
+	#numberof_plates span{
+		font: 1.0em Tahoma;
+	}
+}
+@media only screen and (max-width: 500px){
+	.time_text{
+		font: 0.9em Tahoma;
+		color: white;
+		padding-top: 10px;
+	}
+	.time{
+		font: 0.6em Tahoma;
+		color: white;
+		padding-top: 25px;
+	}
+}
+.set_img{
+	/* can be used to display food pictrure */
+}
+.set_text{
+	padding: 0px;
+	font:Tahoma;
+	margin: 5px;
+	/*background-color: yellow;*/
+}
+#orderButton{
+	text-align: center;
+	bottom: 0;
+	background-color: yellow;
+	position: absolute;
+}
+#orderSelectedButton {
+	font: 20px Tahoma;
+	color: white;
+	margin: auto;
+	width: 80px;
+	height: 50px;
+	bottom: 0;
+	width: 100%;
+	background-color: red;
+	transition: all 0.5s;
+	cursor: pointer;
+  	display: inline-block;
+  	position: relative;
+}
+#orderSelectedButton:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#orderSelectedButton:hover {
+  padding-right: 25px;
+}
+
+#orderSelectedButton:hover:after {
+  opacity: 1;
+  right: 0;
+}
+#shipping{
+	margin-top: -1000px;
+	width: 85%;
+	margin-bottom: 5px;
+	/*background-color: yellow; */
+}
+#article1_shipping{
+	margin-left: 80px;
+	width: 100%;
+	background-color: white;
+	float: left;
+	box-shadow: rgb(110,110,110) 2px 2px 5px;
+	display: block;
+	/*padding: 20px; */
+	}
+#article1_shipping table{
+	margin-top: 10px;
+}
+#article1_shipping td{
+	border: 0px;
+}
+#article1_shipping th{
+	border: 0px;
+}
+#cSpan{
+	font-size: 25px;
+	font-family: Tahoma;
+}
+/*#article1_shipping_item{
+	width: 30%;
+	margin: 2%;
+	float: left;
+}
+#article1_shipping_price{
+	width: 16%;
+	margin: 2%;
+	margin-right: 6%;
+	float: left;
+}
+#article1_shipping_qty{
+	width: 16%;
+	margin: 2%;
+	float: left;
+}
+#article1_shipping_totalPrice{
+	width: 16%;
+	margin: 2%;
+	float: left;
+}
+#overallCost{
+	height: 10px;
+	width: 100px;
+	text-align: right;
+	background-color: red;
+} */
+#ordererDetails{
+	margin-top: 50px;
+	text-align: center;
+}
+#ordererDetails input{
+	text-align: center;
+	height: 40px;
+	font : 20px Tahoma;
+}
+#place_order input{
+	font: 20px Tahoma;
+	color: white;
+	margin: 5px;
+	width: 150px;
+	height: 50px;
+	background-color: red;
+}
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+	.set{
+			/*background-color: brown;*/
+			width: 90%;
+			margin-left: 5%;
+			margin-bottom: 20px;
+		}
+	.food-image img{
+		width: 100%;
+		height: 270px;
+	}
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+	.set{
+		/*background-color: violet;*/
+		width: 45%;
+		margin-left: 3%;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	.set{
+		/*background-color: grey;*/
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	.set{
+		/*background-color: green;*/
+		width: 30%;
+		margin-left: 2%;
+	}
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	.set{
+		/*background-color: red;*/
+		width: 22%;
+	}
+}
+

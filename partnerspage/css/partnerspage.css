@@ -1,0 +1,229 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	margin: auto;
+	background-image: url("../images/FRASSINO.jpg");
+	background-color: white;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+header, nav,section, article, footer{
+	display: block;
+}
+a:link{
+	text-decoration: none;
+}
+h3 span{
+		background:#fff; 
+	    padding:0 10px;
+	    font-size: 1.2em;
+	}
+h3 {
+   width: 100%; 
+   text-align: center; 
+   border-bottom: 1px solid #000; 
+   line-height: 0.1em;
+ margin-top: 5px;
+}
+@media only screen and (min-width: 768px){
+	h3 span{
+		background:#fff; 
+	    padding:0 10px;
+	    font-size: 50px;
+	}
+	h3 {
+	   width: 100%; 
+	   text-align: center; 
+	   border-bottom: 1px solid #000; 
+	   line-height: 0.1em;
+	   margin: 10px 0 20px; 
+	}
+}
+/* partnership page css */
+@media only screen and (max-width: 768px){
+	#part_msg span{
+		font-size: 1em;
+		font-weight: bold;
+	}
+	#part_msg p{
+		font-size: 1.0em;
+	}
+}
+@media only screen and (min-width: 768px){
+	#part_msg span{
+		font-family: Tahoma;
+		font-size: 40px;
+	}
+	#part_msg p{
+		font-family: Tahoma;
+		font-size: 20px;
+	}
+}
+.img_text_partner img{
+	width: 70px;
+	height: 70px;
+}
+#part_wrapper{
+	background-color: white;
+	padding-top: 1.5em;
+	min-height: 400px;
+}
+#part_msg a {
+	font-family: Tahoma;
+	background-color: red;
+	color: white;
+	font-style: bolder;
+	font-size: 1.5em;
+	padding: 1.0em;
+	color: white;
+}
+#partner_section{
+	background-color: ;
+}
+#part_below{
+	margin-bottom: -100px;
+	text-align: center;
+}
+#part_below img{
+	height: 100px;
+	width: 250px;
+}
+#part_below span{
+	font-family: Tahoma;
+	font-size: 40px;
+}
+#part_below p{
+	font-family: Tahoma;
+	font-size: 20px;
+	float: left;
+	width: 100%;
+	text-align: center;
+	margin-top: 20px;
+}
+#howwkarticle1{
+	text-align: center;
+	margin-top: 30px;
+}
+#howwkarticle1 span{
+	font-size: 3em;
+	color: red;
+}
+@media only screen and (max-width: 1000px){
+	#howwkarticle1 span{
+	font: 1.9em Tahoma;
+	
+	}
+	#howwkarticle1 p{
+		font: 0.8em Tahoma;
+	}
+}
+@media only screen and (max-width: 768px){
+	#howwkarticle1 p{
+		font: 0.7em Tahoma;
+	}
+	#howwkarticle1 span{
+	font: 1.0em Tahoma;
+	
+	}
+	.img_text_partner img{
+		width: 40px;
+		height: 40px;
+	}
+
+	#howwkarticle1 img{
+		width: 25px;
+		height: 25px;
+	}
+}
+#howwkstep1 span{
+	text-decoration: underline;
+}
+#howwkstep2 span{
+	
+	text-decoration: underline;
+}
+#howwkstep3 span{
+	
+	text-decoration: underline;
+}
+#howwkstep4 span{
+	
+	text-decoration: underline;
+}
+#howwkstep5 span{
+	
+	text-decoration: underline;
+}
+@media only screen and (min-width: 768px){
+	#howwkarticle1 img{
+		width: 50px;
+		height: 50px;
+	}
+	#howwkstep2{
+	
+	border-left: 1px solid black;
+	}
+	#howwkstep3{
+		
+		border-left: 1px solid black;
+	}
+	#howwkstep4{
+		
+		border-left: 1px solid black;
+	}
+	#howwkstep5{
+		
+		border-left: 1px solid black;
+	}
+	#howwkstep1 span{
+	
+	text-decoration: none;
+	}
+	#howwkstep2 span{
+	
+	text-decoration: none;
+	}
+	#howwkstep3 span{
+		
+		text-decoration: none;
+	}
+	#howwkstep4 span{
+		
+		text-decoration: none;
+	}
+	#howwkstep5 span{
+		
+		text-decoration: none;
+	}
+}
+.jumbotron-custom {
+  padding-top: 30px;
+  color: inherit;
+  background-color: white;
+}
+ #article2_partner{
+	background-color: white;
+	margin-top: 50px;
+	/*border: 3px solid black; */
+	box-shadow: rgb(110,110,110) 5px 5px 5px;
+}
+.article2_sub_partner{
+	text-align: center;
+	background-color: ;
+	padding: 0.5em;
+	padding-left: 1.5em;
+	font-family: Tahoma;
+}
+.img_text_partner{
+	float: left;
+	height: 50px;
+}
+.article2_sub_partner span{
+	font-size: 30px;
+	color: red;
+}
+#article2_2{
+	float: left;
+}

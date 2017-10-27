@@ -1,0 +1,78 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	margin: auto;
+	background-image: url("../images/FRASSINO.jpg");
+	background-color: white;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+/* Registration Page CSS*/
+#registration_section{
+	width: 95%;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 5px;
+	/*background-color: yellow; */
+}
+#article1_register{
+	background-color: white;
+	box-shadow: rgb(110,110,110) 2px 2px 5px;
+	padding: 20px;
+	}
+#cSpan{
+	font-size: 25px;
+	font-family: Tahoma;
+}
+.regForm{
+	text-align: center;
+	background-color: #FAFAD2;
+}
+.regForm span{
+	font-size: 15px;
+	padding: 0px;
+	font-family: Tahoma;
+}
+.regForm input{
+	height: 40px;
+	font-size: 20px;
+}
+#email{
+	padding: 1em;
+}
+#rest{
+	padding: 1em;
+}
+#wphone{
+	padding: 1em;
+}
+#fName{
+	padding: 1em;
+}
+#lName{
+	padding: 1em;
+}
+#pNumber{
+	padding: 1em;
+}
+#article1_rgister input{
+	height: 50px;
+	background-color: red;
+	color: white;
+}
+#appDjob{
+	margin-top: 10px;
+	text-align: center;
+	/*background-color: black;*/
+	border-radius: 10px;
+}
+#appDjob input {
+	font-family: Tahoma;
+	background-color: red;
+	color: white;
+	font-style: bold;
+	font-size: 30px;
+	padding: 0.5em;
+}

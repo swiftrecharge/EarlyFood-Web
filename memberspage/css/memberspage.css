@@ -1,0 +1,184 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	margin: auto;
+	background-image: url("../images/FRASSINO.jpg");
+	background-color: white;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+th {
+  text-align: center;
+}
+.shipping_items span{
+	font: 1.2em Tahoma;
+}
+.shipping_items_header span{
+	font: 1.5em Tahoma;
+	text-decoration: underline;
+	text-align: center;
+}
+@media only screen and (max-width: 768px){
+	.shipping_items{
+		font-size: 0.5em;
+		font-weight: bolder;
+	}
+	.shipping_items_header{
+		font-size: 0.5em;
+		font-weight: bolder;
+	}
+}
+#member_wrapper{
+	background-color: #FFFAF0;
+	box-shadow: rgb(110,110,110) 0px 0px 0px 2px;
+}
+#welcome_member{
+	margin-left: 5%;
+	width: 90%;
+	max-height: 120px;
+}
+#welcome_user{
+	margin-right: 50px;
+	font: 2em Tahoma;
+	float: right;
+}
+@media only screen and (max-width: 768px){
+	#welcome_user{
+		font: 1.2em Tahoma;
+	}
+	#update_details input{
+		padding: 0.5em;
+		font: 20px Tahoma;
+		margin-bottom: 5px;
+
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 1199px){
+	#update_details span>input{
+		padding: 0em;
+		width: 95%;
+		font: 20px Tahoma;
+		margin-bottom: 5px;
+		/*background-color: red;*/
+	}
+	#update_details span>textarea{
+		width: 98%;
+	}
+}
+#logout_user{
+	margin-right: 0px;
+	margin-top: 1px;
+	font-family: Tahoma;
+	float: right;
+}
+#logout_user input{
+	padding: 0.1em;
+}
+#left_right{
+	margin-top: 2px;
+}
+#left{
+	
+}
+#right{
+	
+}
+#current_orders{
+}
+#previous_orders{
+	text-align: center;
+	font: 1.5em Tahoma;
+}
+.option{
+	box-shadow: rgb(110,110,110) 2px 2px 5px;
+	height: 45px;
+	max-width: 130px;
+	background-color: white;
+	margin-top: 15px;
+	padding: 0.5em;
+
+}
+.details{
+	padding: 0.5em;
+	margin-top: 15px;
+	background-color: white;
+	min-height: 45px;
+	box-shadow: rgb(110,110,110) 2px 2px 5px;
+}
+#place_orders{
+	margin-top: 100px;
+	height: 50px;
+	max-width: 200px;
+	padding: 1.0em;
+	font: 1.2em Tahoma;	
+	box-shadow: rgb(110,110,110) 2px 2px 5px;
+}
+#update_details{
+	font: 20px Tahoma;
+	text-align: center;
+	background-color: white;
+	box-shadow: rgb(110,110,110) 2px 2px 5px;
+}
+#update_details input{
+	text-align: center;
+}
+#coupon_code{
+	padding: 0.5em;
+	font: 1.0em Tahoma;
+	text-align: center;
+	background-color: white;
+	box-shadow: rgb(110,110,110) 2px 2px 5px;
+	font-style: italic;
+}
+#coupon_code span{
+	font: 1.5em Tahoma;
+}
+#gift_cert{
+	padding: 1.0em;
+	font: 20px Tahoma;
+	text-align: center;
+	background-color: white;
+	box-shadow: rgb(110,110,110) 2px 2px 5px;
+}
+
+
+#shipping{
+	margin-bottom: 5px;
+	/*background-color: yellow; */
+}
+#article1_shipping{
+	background-color: white;
+	box-shadow: rgb(110,110,110) 2px 2px 5px;
+	display: block;
+	/*padding: 20px; */
+	}
+#article1_shipping table{
+	margin-top: 10px;
+}
+#article1_shipping td{
+	border: 0px;
+}
+#article1_shipping th{
+	border: 0px;
+}
+#cSpan{
+	font-size: 1.5em;
+	font-family: Tahoma;
+}
+#update_details input{
+	padding: 0.1em;
+	font: 20px Tahoma;
+	margin-bottom: 5px;
+}
+#update_details input:hover{
+	cursor: hand;
+}
+#wallet{
+	background-color: white;
+	box-shadow: rgb(110,110,110) 2px 2px 5px;
+	display: block;
+	margin-top: 1px;
+	padding: 1em;
+}

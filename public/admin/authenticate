@@ -1,0 +1,215 @@
+<?php session_start(); ?>
+<?php require_once("../../includes/redirect.php") ?>
+<?php require_once("../../includes/functions.php") ?>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css" media="screen" title="style (screen)" />
+	</head>
+	<body>
+		<section class="overlay" id="myNav">
+			<div class="overlay-content">
+				<article id = "return_new_login_register">
+					<div class = "row form-fields">
+						<form method="post" action="0#" id="login">
+							<div class="col-md-6 col-sm-6 col-xs-12 form-group input-fields">
+								<input type="text" name="txtEmail" id="txtEmail" placeholder="Type Email Address" /><br /><br /><br />
+							</div>
+							
+							<div class="col-md-6 col-sm-6 col-xs-12 form-group input-fields">
+								<input type="password" name="txtPassword" id="txtPassword" placeholder="Type Password" /><br /><br />
+							</div>
+							<div class="submit-btn-input">
+								<input type="submit" name="txtLogin" value="Login" class="btn btn-submit btn-block btn-i-sm uppercase txt-sm" data-loading-text="Loading..." id="login_user">
+							</div>
+						</form>
+					</div>
+					<div class = "row form-fields">
+						<form method="post" action="landing.html" id="register">
+							<div class="form-group input-fields">
+								<input type="text" name="txtEmail" id="txtEmailRegister" placeholder="Type Email Address"><br /><br /><br />
+							</div>
+							<div class="form-group input-fields">
+								<input type="password" name="txtPassword" id="txtPasswordRegister" placeholder="Type Password"><br /><br /><br />
+							<div class="form-group input-fields">
+								<input type="password" name="txtPasswordC" id="txtPasswordCRegister" placeholder="Confirm Password"><br /><br />
+							</div>
+							<div class="submit-btn-input">
+								<input type="submit" name="txtRegister" id="register_user" value="Register" class="btn btn-submit btn-block btn-i-sm uppercase txt-sm" data-loading-text="Loading...">
+							</div>
+						</form>
+					</div>
+					<div class = "row form-fields">
+						<form method="post" action="" id="mobile_verification">
+							<div class="col-md-12 col-sm-12 col-xs-12 form-group input-fields">
+								<input type="text" name="txtMobile" id="txtMobile" placeholder="Type Mobile Number"> <a href="#" id="verify">Send Code</a>
+							</div>
+							<span style="color:white"> Please Type a valid mobile number.<br /> You will receive a verification code to complete registration.</span><br /><br />
+						</form>
+					</div>
+					<div class = "row form-fields">
+						<form method="post" action="0#" id="code_confirmation">
+							<div class="col-md-12 col-sm-12 col-xs-12 form-group input-fields">
+								<input type="text" name="txtCode" id="txtCode" placeholder="Input Code Sent To Your Mobile"><a href="#" id="confirm">Confirm Code</a>
+							</div>
+							<span style="color:white">Have not received code?</span><a href="#" id="resend_code">Resend</a>
+						</form>
+					</div>
+					<div id="switch" class="row">
+						<div class="form-group input-fields col-md-6 col-sm-6 col-xs-12 ">
+							<button id="sign_in" class="btn btn-submit btn-block btn-i-sm uppercase txt-sm" data-loading-text="Loading...">Sign In</button>
+						</div>
+						<div class="form-group input-fields col-md-6 col-sm-6 col-xs-12 ">
+							<button id="sign_up" class="btn btn-submit btn-block btn-i-sm uppercase txt-sm" data-loading-text="Loading...">Sign Up</button>
+						</div>
+					</div>
+				</article>
+				<article class="my_account" id="load_account">
+					Welcome to your account...<br /><br /><br />
+					<div id="update_details" style="color:black">
+						<div class="panel-group" id="accordion">
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h1 class="panel-title">
+										<a href="#address" class="accordion-toggle"  data-parent="#accordion" data-toggle="collapse">Buy Credit</a>
+									</h1>
+								</div>
+								<div class="panel-collapse collapse" id="address">
+									<div class="panel_body">
+										<!-- load all available meters here for selection to buy credit-->
+
+										<br />
+										<div id="meters_span">
+											<span>Click on meter to purchase credit for that meter</span><br /><br/>
+											
+										</div><br /><br />
+										<span id="amount_span">
+											<select name="txtAmount" id="txtAmount">
+												<option selected>Select Amount(GHS)</option>
+												<?php 
+													for ($i=5; $i < 200; $i+=5) { 
+														echo "<option>".$i."</option>";
+													}
+												?>
+											</select>
+											<button id="purchase_credit">Purchase</button>
+										</span>
+									</div>
+								</div>
+							</div>
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h1 class="panel-title">
+										<a href="#occupation" class="accordion-toggle"  data-parent="#accordion" data-toggle="collapse">Add Meter</a>
+									</h1>
+								</div>
+								<div class="panel-collapse collapse" id="occupation">
+									<div class="panel_body">
+										<br />
+										<center>
+											
+												<input type="text" id="txtMeterNumber" maxlength="30" placeholder="Type Meter Number" /><br /><br />
+												<input type="text" id="txtMeterNumberC" maxlength="30" placeholder="Confirm Meter Number" /><br /><br />
+												<input type="submit" value="Add" class="btn btn-submit btn-block btn-i-sm" id="add_meter" />
+											
+										</center>
+										<br />
+									</div>
+								</div>
+							</div>
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h1 class="panel-title">
+										<a href="#transaction" class="accordion-toggle"  data-parent="#accordion" data-toggle="collapse">View Transactions History</a>
+									</h1>
+								</div>
+								<div class="panel-collapse collapse" id="transaction">
+									<div class="panel_body">
+										<br />
+										You haven't undertaken any transactions yet...
+										<br />
+									</div>
+								</div>
+							</div>
+
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h1 class="panel-title">
+										<a href="#notifs" class="accordion-toggle"  data-parent="#accordion" data-toggle="collapse">Visualize Power Consumption</a>
+									</h1>
+								</div>
+								<div class="panel-collapse collapse" id="notifs">
+									<div class="panel_body">
+										<span class="sub-title-top">Credit Consumption By Meter</span><br /><br /><br />
+										<canvas id="myChart" width="100%" height="400"></canvas>
+									</div>
+								</div>
+							</div>
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h1 class="panel-title">
+										<a href="#mail" class="accordion-toggle"  data-parent="#accordion" data-toggle="collapse">Update Email Address</a>
+									</h1>
+								</div>
+								<div class="panel-collapse collapse" id="mail">
+									<div class="panel_body">
+										<br />
+											<span>
+												<input type="text" placeholder="Current Email Aaddress" id="txtOEmail"/><br /><br />
+												<input type="text" placeholder="New Email Address" id="txtNEmail"/><br /><br />
+												<input type="text" placeholder="Confirm New Email Address" id="txtCEmail"/><br /><br />
+											</span>
+											<button class="btn btn-submit btn-block btn-i-sm" id="btnUpdateEmail">Update</button>
+										<br />
+									</div>
+								</div>
+							</div>
+
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h1 class="panel-title">
+										<a href="#password" class="accordion-toggle"  data-parent="#accordion" data-toggle="collapse"> Update Password</a>
+									</h1>
+								</div>
+								<div class="panel-collapse collapse" id="password">
+									<div class="panel_body">
+										<br />
+									
+											<span>
+												<input type="password" id="txtOPassword" placeholder="Current Password" /><br /><br />
+												<input type="password" id="txtNPassword" placeholder="New Password"/><br /><br />
+												<input type="password" id="txtCPassword" placeholder="Confrim New Password"/><br /><br />
+											</span>
+											<button class="btn btn-submit btn-block btn-i-sm" id="btnUpdatePassword">Update</button>
+										
+										<br />
+									</div>
+								</div>
+							</div>
+
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h1 class="panel-title">
+										<a href="#phone_number" class="accordion-toggle"  data-parent="#accordion" data-toggle="collapse">Update Phone Number</a>
+									</h1>
+								</div>
+								<div class="panel-collapse collapse" id="phone_number">
+									<div class="panel_body">
+										<br />
+										<form action="#0" method="post">
+											<span>
+												<input type="text" name="phone" id = "phone" /><br /><br />
+												<input type="text" name="phone" id = "phone" /><br /><br />
+											</span>
+											<button class="btn btn-submit btn-block btn-i-sm">Update</button>
+										</form>
+										<br />
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</article>
+			</div>
+		</section>
+	</body>
+</html>

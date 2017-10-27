@@ -1,0 +1,270 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	margin: auto;
+	background-image: url("../images/FRASSINO.jpg");
+	background-color: white;
+	background-repeat: no-repe
+}
+
+/* driving job page css*/
+#drivingJob_article1{
+}
+#drivingJob_article1Sub{
+	font-size: 3em;
+	color: white;
+	/*background-color: red;*/
+	text-align: center;
+	font-family: Tahoma;
+	padding: 100px;
+	height: 100px;
+}
+@media only screen and (max-width: 550px){
+	#drivingJob_article1Sub{
+		font-size: 1.5em;
+	}
+}
+#appDjob{
+	text-align: center;
+	/*background-color: black;*/
+	height: 130px;
+	margin-top: 150px;
+	border-radius: 10px;
+}
+#appDjob a {
+	font-family: Tahoma;
+	background-color: red;
+	color: white;
+	font-style: bold;
+	font-size: 30px;
+	padding: 10px;
+	color: white;
+}
+#art_text1{
+	font-family: Tahoma;
+	background-color: white;
+	font-size: 30px;
+	padding: 1em;
+	margin: auto;
+}
+
+#djob_article2{
+	width: 90%;
+	background-color: white;
+	margin: auto;
+	margin-top: 10px;
+	/*border: 3px solid black;*/
+	border-radius: 10px;
+	box-shadow: rgb(110,110,110) 5px 5px 25px;
+}
+.djob_article2_all{
+	text-align: center;
+	padding: 1.0em;
+	/*box-shadow: rgb(110,110,110) 5px 5px 25px;*/
+}
+.djob_article2_sub{
+	text-align: center;
+	background-color: ;
+	font: 1.2em Tahoma
+	
+}
+.djob_article2_sub span{
+	font-size: 1.7em;
+	color: red;
+}
+#art_text2{
+	font-family: Tahoma;
+	background-color: white;
+	font-size: 30px;
+	padding: 10px;
+	margin: auto;
+	margin-top: 10px;
+}
+
+/* partnership page css */
+#part_wrapper{
+	background-color: white;
+	width: 100%;
+	height: 500px;
+	float: left;
+	margin-top: 2px;
+}
+#part_msg{
+	padding: 10px;
+	float: left;
+	width: 40%;
+}
+#part_jpg{
+	float: left;
+	width: 55%;
+}
+#part_msg span{
+	font-family: Tahoma;
+	font-size: 40px;
+}
+#part_msg p{
+	font-family: Tahoma;
+	font-size: 20px;
+}
+#partner_link{
+	text-align: center;
+	/*background-color: black;*/
+	height: 130px;
+}
+#partner_link a {
+	font-family: Tahoma;
+	background-color: red;
+	color: white;
+	font-style: bold;
+	font-size: 30px;
+	padding: 10px;
+	color: white;
+}
+#partner_section{
+	background-color: ;
+}
+#part_below{
+	text-align: center;
+}
+#part_below span{
+	font-family: Tahoma;
+	font-size: 40px;
+}
+#part_below p{
+	font-family: Tahoma;
+	font-size: 20px;
+	float: left;
+	width: 100%;
+	text-align: center;
+	margin-top: 20px;
+}
+#howwkarticle1{
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+.howwksteps span{
+	font-size: 50px;
+	color: red;
+}
+#howwkstep1{
+	float: left;
+	margin: 25px -20px;
+	width: 22%;
+}
+#howwkstep2{
+	float: left;
+	margin: 25px 25px;
+	width: 15%;
+	border-left: 1px solid black;
+}
+#howwkstep3{
+	float: left;
+	margin: 25px 25px;
+	width: 15%;
+	border-left: 1px solid black;
+}
+#howwkstep4{
+	float: left;
+	margin: 25px 25px;
+	width: 15%;
+	border-left: 1px solid black;
+}
+#howwkstep5{
+	float: left;
+	margin: 25px 25px;
+	width: 15%;
+	border-left: 1px solid black;
+}
+ #article2_partner{
+	height: 500px;
+	width: 100%;
+	background-color: white;
+	margin: auto;
+	margin-top: 300px;
+	/*border: 3px solid black; */
+	border-radius: 10px;
+	box-shadow: rgb(110,110,110) 5px 5px 25px;
+}
+.article2_all_partner{
+	float: left;
+	height: 300px;
+	width: 100%;
+	/*box-shadow: rgb(110,110,110) 5px 5px 25px; */
+}
+.article2_sub_partner{
+	float: left;
+	width: 45%;
+	text-align: center;
+	background-color: white;
+	margin: 30px;
+	font-family: Tahoma;
+	float: left;
+}
+.img_text_partner{
+	float: left;
+	height: 50px;
+}
+.article2_sub_partner span{
+	font-size: 30px;
+	color: red;
+}
+#article2_2{
+	float: left;
+}
+
+
+
+
+
+/* Restaurants page css */
+
+#restaurants_section{
+	width: 100%;
+	margin-top: 50px;
+	display: inline-block;
+}
+#article1_restaurants{
+	display: block;
+	background-color: white;
+	height: 150px;
+	width: 20%;
+	float: left;
+	margin-left: 20px;
+	padding: 20px;
+	box-shadow: rgb(110,110,110) 2px 2px 5px;
+}
+#article2_restaurants{
+	margin-left: 45px;
+	width: 70%;
+	/* background-color: blue; */
+	float: left;
+	
+}
+.set{
+	float: left;
+	margin: 20px;
+	width: 45%;
+	height: 100px;
+	background-color: white;
+	box-shadow: rgb(110,110,110) 2px 2px 5px;
+}
+.set_img{
+	float: left;
+	width: 30%;
+	height: 90%;
+	margin: 5px;
+	background-color: blue;
+}
+.set_text{
+	float: left;
+	width: 64%;
+	height: 90%;
+	margin: 5px;
+	background-color: yellow;
+}
+
+
+

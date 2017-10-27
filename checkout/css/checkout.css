@@ -1,0 +1,116 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	margin: auto;
+	background-image: url("../images/FRASSINO.jpg");
+	background-color: white;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+th {
+  text-align: center;
+}
+.shipping_items span{
+	font: 1.2em Tahoma;
+}
+.shipping_items_header span{
+	font: 1.5em Tahoma;
+	text-decoration: underline;
+	text-align: center;
+}
+@media only screen and (max-width: 768px){
+	.shipping_items{
+		font-size: 0.5em;
+		font-weight: bolder;
+	}
+	.shipping_items_header{
+		font-size: 0.5em;
+		font-weight: bolder;
+	}
+}
+#cart_section{
+	
+}
+#orderButton{
+	text-align: center;
+}
+#orderButton input{
+	font: 20px Tahoma;
+	color: white;
+	margin: 5px;
+	width: 80px;
+	height: 50px;
+	background-color: red;
+}
+#shipping{
+	margin-bottom: 5px;
+	/*background-color: yellow; */
+}
+#article1_shipping{
+	background-color: white;
+	box-shadow: rgb(110,110,110) 2px 2px 5px;
+	display: block;
+	/*padding: 20px; */
+	}
+#article1_shipping table{
+	margin-top: 10px;
+}
+#article1_shipping td{
+	border: 0px;
+}
+#article1_shipping th{
+	border: 0px;
+}
+#cSpan{
+	font-size: 25px;
+	font-family: Tahoma;
+}
+/*#article1_shipping_item{
+	width: 30%;
+	margin: 2%;
+	float: left;
+}
+#article1_shipping_price{
+	width: 16%;
+	margin: 2%;
+	margin-right: 6%;
+	float: left;
+}
+#article1_shipping_qty{
+	width: 16%;
+	margin: 2%;
+	float: left;
+}
+#article1_shipping_totalPrice{
+	width: 16%;
+	margin: 2%;
+	float: left;
+}
+#overallCost{
+	height: 10px;
+	width: 100px;
+	text-align: right;
+	background-color: red;
+} */
+#ordererDetails{
+	margin-top: 50px;
+	text-align: center;
+}
+#ordererDetails input{
+	text-align: center;
+	height: 40px;
+	font : 20px Tahoma;
+}
+#place_order input{
+	font: 20px Tahoma;
+	color: white;
+	margin: 5px;
+	width: 150px;
+	height: 50px;
+	background-color: red;
+}
+#ordererDetails > textarea{
+	text-align: center;
+}

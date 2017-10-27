@@ -39,7 +39,7 @@
 				<span>CopyRight &copy<span>  <?php echo date("Y", time()); ?> earlyFood Delivery Service<br />
 				<div id="p_p">
 						<li class="dropdown">
-							<a href="" data-toggle="dropdown">Prvacy Policy</a>
+							<a href="" data-toggle="dropdown">Privacy Policy</a>
 							<ul class="dropdown-menu" id="p_text">
 								<?php include("privacyPolicy.html"); ?>
 							</ul>
